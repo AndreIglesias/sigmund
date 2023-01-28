@@ -12,11 +12,11 @@ jobs:
         run: |
           sudo apt-get -y update
           wget https://github.com/jgm/pandoc/releases/download/3.0.1/pandoc-3.0.1-1-amd64.deb
-          dpkg -i pandoc-3.0.1-1-amd64.deb
+          sudo dpkg -i pandoc-3.0.1-1-amd64.deb
           sudo apt-get -y install ruby-full ./pandoc-3.0.1-1-amd64.deb
           wget http://ftp.gnu.org/pub/gnu/libiconv/libiconv-1.14.tar.gz
           tar zxvf libiconv-1.14.tar.gz
           cd libiconv-1.14
           ./configure
           make
-          make install
+          sudo make install

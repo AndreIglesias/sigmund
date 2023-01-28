@@ -1,6 +1,9 @@
 <p align="center">
   <img src="sigmund.svg"/>
 </p>
+<p align="center">
+  <img src="mind-map.png"/>
+</p>
 
 <h1>
   <a href="https://www.signal.org/">

@@ -1,9 +1,8 @@
 <p align="center">
   <img src="sigmund.svg"/>
 </p>
-<p align="center">
-  <img src="mind-map.png"/>
-</p>
+
+
 
 <h1>
   <a href="https://www.signal.org/">
@@ -11,8 +10,17 @@
   </a>
   Sigmund Assistant
 </h1>
+
 <p>
 <b>Sigmund</b> is a <a href="https://www.signal.org/">Signal</a> assistant bot for finance and home organization, written in Python using <a href="https://github.com/AsamK/signal-cli">signal-cli</a>, that helps to create an organized financial gestor and to orchestrate the tasks and interaction of the home members.
+</p>
+
+
+<h2>
+  Mind Map
+</h2>
+<p align="center">
+  <img src="mind-map.png"/>
 </p>
 
 <h2 id="Installation">

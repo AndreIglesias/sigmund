@@ -17,4 +17,4 @@ jobs:
             rubygems ruby-dev \
             ./pandoc-3.0.1-1-amd64.deb
           sudo gem install xmindoc
-          xmindoc -t png -o docs/mind-map.png docs/Sigmund.xmind
+          xmindoc -t gfm -o docs/mind-map.md docs/Sigmund.xmind

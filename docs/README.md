@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="sigmund.svg"/>
+  <img src="media/sigmund.svg"/>
 </p>
 
 
@@ -20,7 +20,7 @@
   Mind Map
 </h2>
 <p align="center">
-  <img src="mind-map.png"/>
+  <img src="media/mind-map.png"/>
 </p>
 
 <h2 id="Installation">

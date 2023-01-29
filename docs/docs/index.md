@@ -2,6 +2,10 @@
 
 ## Commands
 
+<p align="center">
+  <img src="../media/mind-map.png"/>
+</p>
+
 * `mkdocs new [dir-name]` - Create a new project.
 * `mkdocs serve` - Start the live-reloading docs server.
 * `mkdocs build` - Build the documentation site.

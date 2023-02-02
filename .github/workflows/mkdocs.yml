@@ -20,7 +20,8 @@ jobs:
       - run: |
           pip install \
             mkdocs-material \
-            mkdocs-awesome-pages-plugin
+            mkdocs-awesome-pages-plugin \
+            mkdocs-bootswatch
       - run: |
           cd docs/
           mkdocs gh-deploy --force

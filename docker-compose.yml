@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  sigmund-bot:
+    build: ./sigmund-bot
+    image: ubuntu:22.04
+    env_file: .env
+    #restart: always
+    

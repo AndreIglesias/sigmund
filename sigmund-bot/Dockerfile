@@ -5,5 +5,7 @@
 #
 FROM ubuntu:22.04
 
-COPY ./config/config.sh
+ARG SIGNAL_CLI
+ENV VERSION=${SIGNAL_CLI}
+COPY ./config/config.sh .
 RUN chmod +x config.sh && ./config.sh

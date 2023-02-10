@@ -21,7 +21,7 @@ else
     if ! (exit $EXIT_STATUS) ; then
 	curl -sSL https://get.docker.com | sh
     fi
-    apt-get -y install docker-compose
+    apt-get -y install "${deb_dependencies[@]}"
     echo "Installing..."
 
 fi

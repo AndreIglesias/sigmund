@@ -13,7 +13,7 @@ if [ "$(id -u)" -ne 0 ]; then
     echo 'VERSION="0.11.6"' >> .env
     
 else
-
+    echo "Installing..."
     apt-get -y update
     apt-get -y upgrade
     command -v docker > /dev/null 2>&1
@@ -22,6 +22,4 @@ else
 	curl -sSL https://get.docker.com | sh
     fi
     apt-get -y install "${deb_dependencies[@]}"
-    echo "Installing..."
-
 fi

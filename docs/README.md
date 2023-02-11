@@ -26,9 +26,23 @@
   <img src="media/mind-map.png"/>
 </p>
 
+<h2 id="Setup">
+Setup
+</h2>
+In order to setup the signal-cli for the bot, it is necessary to obtain the verification token from <a href="https://signalcaptchas.org/registration/generate.html">this link</a>.
+<img src="https://user-images.githubusercontent.com/35022933/218282005-1ae5bd63-03f5-4745-8cc2-ff0c821595e8.png"/>
+And then create an **.env** file with the variables:
+
+  ```
+   VERSION="0.11.6"
+   ACCOUNT="+00000000"
+   CAPTCHA="signal-hcaptcha.23b9a0...hLHs23m"
+  ```
+</h2>
+
 <h2 id="Installation">
   Installation
-</h1>
+</h2>
 
 <h2>
   Usage

@@ -36,6 +36,9 @@ First, run the build script to install the dependencies of the project.
 ```
 
 In order to setup the signal-cli for the bot, it is necessary to obtain the verification token from <a href="https://signalcaptchas.org/registration/generate.html">signalcaptchas.org</a>.
+
+(Everything after signalcaptcha:// is the captcha token.)
+
 <img src="https://user-images.githubusercontent.com/35022933/218282005-1ae5bd63-03f5-4745-8cc2-ff0c821595e8.png"/>
 
 And then fill the variables from the <b>.env</b>:

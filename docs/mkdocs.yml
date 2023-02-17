@@ -1,5 +1,3 @@
 site_name: Sigmund
 nav:
   - Home: index.md
-theme:
-  name: litera

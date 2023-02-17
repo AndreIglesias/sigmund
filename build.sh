@@ -10,7 +10,12 @@ declare -a deb_dependencies=(
 if [ "$(id -u)" -ne 0 ]; then
 
     echo "Configuring..."
-    echo 'VERSION="0.11.6"' >> .env
+
+    if [ ! -f ".env" ]; then
+	cp dotenv .env
+	echo "Cloned dotenv to .env"
+	echo "Please fill the .env variables before building the project"
+    fi
     
 else
     echo "Installing..."

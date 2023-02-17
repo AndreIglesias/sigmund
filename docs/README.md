@@ -41,7 +41,7 @@ In order to setup the signal-cli for the bot, it is necessary to obtain the veri
 
 <img src="https://user-images.githubusercontent.com/35022933/218282005-1ae5bd63-03f5-4745-8cc2-ff0c821595e8.png"/>
 
-And then copy the <b>dotenv</b> file to a <b>.env</b> and fill the variables:
+And then rename the <b>dotenv</b> file to <b>.env</b> (if you don't have already) and fill the variables:
 
   ```
    VERSION="0.11.6"
